@@ -24,9 +24,6 @@ The Smart Plant Monitor MCP bridges the gap between smart home AI agents and rea
 
 - Backend: Python 3.12+, FastAPI, Uvicorn
 - Protocol: Model Context Protocol (MCP), JSON-RPC 2.0
-- Frontend / Dashboard**: Streamlit
+- Frontend / Dashboard: Streamlit
 - Tunneling: Ngrok / Pinggy
 
-python -m venv venv
-venv\Scripts\activate   # Windows
-pip install fastapi uvicorn streamlit requests
